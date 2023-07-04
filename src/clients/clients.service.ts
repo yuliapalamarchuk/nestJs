@@ -53,7 +53,7 @@ export class ClientsService {
     return this.repository.findOneBy({ email });
   }
   findOneById(id: number) {
-    return `This action returns a #${id} client`;
+    return `This action returns a #${id} flat`;
   }
 
   update(id: number, data: UpdateClientDto) {
